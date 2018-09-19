@@ -1,0 +1,67 @@
+#espacamento .letter {
+    letter-spacing: 20px;
+}
+
+#espacamento .word {
+    word-spacing: 30px;
+}
+
+#espacamento .lines {
+    line-height: 1.3;
+}
+
+.align {
+    height: 30px;
+    border: 1px solid blue;
+    font-size: 26px;
+}
+
+.align .vsup {
+    display: inline;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.align .vbottom {
+    display: inline;
+    vertical-align: text-bottom;
+    font-size: 16px;
+}
+
+.align .center {
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.alinha-esquerda {
+    text-align: left;
+}
+
+.alinha-centro {
+    text-align: center;
+}
+
+.alinha-direita {
+    text-align: right;
+}
+
+.alinha-justificado {
+    text-align: justify;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.taxado {
+    text-decoration: line-through;
+}
+
+.blink {
+    text-decoration: blink;
+}
+
+.linha-sup {
+    text-decoration: overline;
+}
