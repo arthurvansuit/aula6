@@ -65,3 +65,16 @@
 .linha-sup {
     text-decoration: overline;
 }
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+}

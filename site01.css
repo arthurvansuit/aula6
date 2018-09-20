@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .start{
+    width:100%;
+    min-height: 600px;
+    /* background-image: url('./banner.jpg'); */
+    background-image: url('https://cdn1.flash.pt/images/2017-07/img_828x523$2017_07_20_12_15_12_71872.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:200px;
+  }
+  
+  .start:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top:0;
+    width:100%;
+    min-height: 600px;
+    background-color:#000;
+    opacity: 0.65;
+    z-index: 1;
+  }
+  
+  .start h1,
+  .start p{
+    text-align: center;
+    font-family: 'Scope One', serif;
+    color:#fff;
+  }
+  
+  .start .interna{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .start h1{
+    font-size: 58px;
+  }
+  
+  .start p{
+    font-size: 24px;
+    line-height: 1.8;
+  }
+  a.btn-action{
+    color:#fff;
+    text-decoration: none;
+    margin-top:10px;
+    padding:10px 15px;
+    display:inline-block;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-weight: bold;
+  }
